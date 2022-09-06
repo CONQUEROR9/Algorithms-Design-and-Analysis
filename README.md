@@ -7,3 +7,4 @@ This repository contains the following programs which are implemented in python:
 1. Insertion Sort
 2. Merge Sort
 3. Maximum-Subarray Problem
+4. Heap Sort
