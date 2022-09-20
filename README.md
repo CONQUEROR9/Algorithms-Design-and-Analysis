@@ -8,3 +8,5 @@ This repository contains the following programs which are implemented in python:
 2. Merge Sort
 3. Maximum-Subarray Problem
 4. Heap Sort
+5. Quick Sort
+6. Binary Search Tree
