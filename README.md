@@ -10,3 +10,5 @@ This repository contains the following programs which are implemented in python:
 4. Heap Sort
 5. Quick Sort
 6. Binary Search Tree
+7. Breadth First Search
+8. Depth First Search
