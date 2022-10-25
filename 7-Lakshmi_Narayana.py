@@ -1,4 +1,4 @@
-adjacency_matrix = [[0, 1, 0, 0, 0, 0, 0],
+adjacency_matrix = [[0, 1, 0, 0, 0, 0, 1],
                     [0, 0, 0, 1, 0, 0, 1],
                     [0, 0, 0, 1, 0, 0, 0],
                     [0, 0, 0, 0, 0, 1, 0],
@@ -9,7 +9,7 @@ adjacency_matrix = [[0, 1, 0, 0, 0, 0, 0],
 
 
 def bfs(adj_matrix):
-    visited = set()
+    visited = []
     for row in range(len(adj_matrix)):
         for col in range(len(adj_matrix[0])):
             if (row, col) not in visited:
@@ -20,7 +20,7 @@ def bfs(adj_matrix):
                         continue
                     if (row, col) not in visited:
                         if adj_matrix[row][col] == 1:
-                            visited.add((row, col))
+                            visited.append((row, col))
                             nodes.append((row + 1, col))
                             nodes.append((row, col + 1))
                             nodes.append((row - 1, col))
