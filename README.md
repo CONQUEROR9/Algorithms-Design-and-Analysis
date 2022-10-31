@@ -12,3 +12,4 @@ This repository contains the following programs which are implemented in python:
 6. Binary Search Tree
 7. Breadth First Search
 8. Depth First Search
+9. Prim's Algorithm 
