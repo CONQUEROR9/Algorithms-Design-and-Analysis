@@ -13,3 +13,4 @@ This repository contains the following programs which are implemented in python:
 7. Breadth First Search
 8. Depth First Search
 9. Prim's Algorithm 
+10. Dijkstra's Algorithm
