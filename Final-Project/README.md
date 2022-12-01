@@ -1,4 +1,4 @@
-Final Project of Algorith Design and Analysis
+Final Project of Algorithm Design and Analysis
 
 `Project Topic` : Knight's Tour
 
